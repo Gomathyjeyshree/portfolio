@@ -1,0 +1,447 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  }
+  .header-content{
+  position: relative;
+  transform: translateY(-220px);
+  margin-left: 10%;
+  color: #fff;
+  }
+  .header-content h1{font-size: 46px;}
+  .header{
+  position: absolute;
+  width: 100%;
+  }
+  .header img{height: 100vh;}
+  @font-face {
+  font-family: myFirstFont;
+  src: url("fonts/interstaterom-webfont-light.woff");
+  }
+  div {
+  font-family: myFirstFont;
+  }
+  .about h2, p{ text-align: center;}
+  .about li{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  }
+  .about ul{ list-style: none; padding: 0px;}
+  .about i::before{     content: "\f285"; }
+  .about strong{    padding-right: 10px;     padding-left: 10px;
+  }
+  .objective{margin-top: 3%;}
+  .skills  h2, p{ text-align: center;}
+  .progress-bar {
+  width: 0;
+  animation: progress 1.5s ease-in-out forwards;
+  background-color: #03576e !important;
+  }
+  .skills{
+  padding-bottom: 50px;
+  }
+  .title {
+  opacity: 0;
+  animation: show 0.35s forwards ease-in-out 0.5s;
+  }
+  @keyframes progress {
+  from {
+  width: 0;
+  }
+  to {
+  width: 100%;
+  }
+  } 
+  @keyframes show  {
+  from {
+  opacity: 0;
+  }
+  to {
+  opacity: 1;
+  }
+  }
+  .SKILL-PRO{
+  PADDING-TOP: 20PX;
+  }
+  .resume h2{ text-align: center  ;}
+  .resume ul{padding-top: 20px;}
+  .resume-line{    padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #03576e;
+  position: relative;
+  height: 50%;
+  }
+  section#contactus {
+  background-image: url('assets/img/banne.jpg');
+  }
+  .resume-line::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #03576e;
+  }
+  .resume h5{font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;}
+  .portfolio h2{ text-align: center  ;}
+  .pc-tab > input,
+  .pc-tab section > div {
+  display: none;
+  }
+  #tab1:checked ~ section .tab1,
+  #tab2:checked ~ section .tab2,
+  #tab3:checked ~ section .tab3,
+  #tab4:checked ~ section .tab4 {
+  display: block;
+  }
+  *, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  .pc-tab { 
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;}
+  .pc-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  }   
+  .pc-tab li {
+  border-bottom: 0px;
+  }  
+  .hover {
+  --c: linear-gradient(#0d29e6 0 0); /* update the color here */
+  padding-bottom: .15em;
+  background: var(--c), var(--c);
+  background-size: .3em .1em;
+  background-position:50% 100%;
+  background-repeat: no-repeat;
+  transition: .3s linear, background-size .3s .2s linear;
+  }
+  .hover:hover {
+  background-size: 40% .1em;
+  background-position: 10% 100%, 90% 100%;
+  }
+  .pc-tab li label {
+  font-family: "Raleway";
+  float: left;
+  margin: 0px;              
+  color: #444;  
+  }   
+  section { 
+  clear: both;    
+  } 
+  .label {
+  background: white;
+  color: #111;
+  position: relative;}
+  .label :after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;     
+  left: 0;
+  bottom: -1px;
+  }
+  .common{
+  margin-top: 5%;
+  }
+  .contact h2,p{ text-align: center  ;}
+  ul {
+  list-style: none;
+  }
+  input {
+  overflow: hidden;
+  }
+  .section-title {
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin: 0 0 35px;
+  }
+  .sec-pad {
+  padding: 60px 0 0;
+  }
+  .contact-sec {
+  align-item: center;
+  display: flex;
+  background-color: #5cbde466;
+  }
+  .contact-sec .contact-ul li,
+  .contact-ul b {
+  font-size: 20px;
+  margin: 20px 0;
+  word-wrap: break-word;
+  }
+  .contact-sec .contact-ul i {
+  font-size: 18px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  }
+  .contact-detail a {
+  color: #000;
+  text-decoration: none;
+  }
+  .contact-sec .contact-ul li b:hover {
+  color: #f93;
+  }
+  .contact-sec .contact-ul li .fa-location-dot {
+  color: #f44337;
+  border: 2px solid #f4433790;
+  }
+  .contact-sec .contact-ul li .fa-phone {
+  color: #00b055;
+  border: 2px solid #00b05590;
+  }
+  .contact-sec .contact-ul li .fa-envelope {
+  color: #ff6347;
+  border: 2px solid #ff634790;
+  }
+  .contact-detail span {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  }
+  .contact-detail span a {
+  font-size: 20px;
+  padding: 6px 12px;
+  color: #000;
+  border-radius: 50%;
+  margin: 0px 5px;
+  }
+  .contact-detail span .fb {
+  color: #3b5998;
+  border: 3px solid #3b5998;
+  }
+  .contact-detail span .fb:hover {
+  color: #fff;
+  background-color: #3b5998;
+  }
+  .contact-detail span .insta {
+  color: #833ab4;
+  border: 3px solid #833ab4;
+  }
+  .contact-detail span .insta:hover {
+  color: #fff;
+  background-color: #833ab4;
+  }
+  .contact-detail span .twitter {
+  color: #00acee;
+  border: 3px solid #00acee;
+  }
+  .contact-detail span .twitter:hover {
+  color: #fff;
+  background-color: #00acee;
+  }
+  form.contFrm {
+  max-width: 396px;
+  margin: auto;
+  }
+  .inptFld {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  margin: 20 0 10px;
+  border-radius: 8px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #000;
+  }
+  .inptFld:focus {
+  outline-offset: -4px;
+  outline: 1px solid #f93;
+  }
+  .contFrm textarea {
+  height: 75px;
+  padding-top: 5px;
+  }
+  .inptBtn {
+  height: 50px;
+  border: 0;
+  background: #00b055;
+  font-size: 14px;
+  color: #fff;
+  margin: auto;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  }
+  a.nav-link {
+  color: #333 !important;
+  font-weight: 700;
+  }
+  .mob-banner{
+  display: none;
+  }
+  .header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+  }
+  .content {
+  padding: 16px;
+  }
+  @media (max-width: 991px) {
+  .sec-pad {
+  padding: 20px 0 0px;
+  }
+  .contact-sec .contact-ul li,
+  .contact-ul b {
+  font-size: 18px;
+  }
+  .contact-sec .contact-ul i {
+  font-size: 14px;
+  padding: 6px;
+  margin-right: 6px;
+  }
+  .inptFld {
+  height: 40px;
+  margin: 0 0 10px;
+  padding: 0 14px;
+  font-size: 14px;
+  }
+  }
+  @media (max-width: 767px) {
+  .contact-detail span {
+  width: auto;
+  }
+  .contact-detail span a {
+  font-size: 18px;
+  padding: 5px 10px;
+  color: #000;
+  border-radius: 50%;
+  margin: 0px 5px 20px;
+  }
+  .desk-header{
+  display: none !important;
+  }
+  .mob-banner{
+  display: block;
+  }
+  .about{
+  padding-top: 65%;
+  }
+  .about-right{
+  padding-top: 30px;
+  }
+  section{
+  padding-top: 20px;  
+  }
+  .mob-line{
+  margin: 35px 15px 0px;
+  }
+  .mob-input{
+  width: 80%;
+  margin: auto !important ;
+  }
+  }
+  @media (max-width: 575px) {
+  .section-title {
+  font-size: 26px;
+  font-weight: 500;
+  }
+  .contact-sec {
+  border-radius: 10% 10% 0% 0% / 5% 5% 0% 0%;
+  }
+  .contact-sec .contact-ul i {
+  border: none;
+  }
+  .inptFld {
+  height: 36px;
+  margin: 0 0 8px;
+  padding: 0 14px;
+  font-size: 14px;
+  }
+  }
+  @media (max-width: 480px) {
+  .contact-sec .contact-ul li,
+  .contact-ul b {
+  font-size: 16px;
+  }
+  }
+  section.contact-sec.sec-pad {
+  padding-bottom: 5%;
+  }
+  .col-12 {
+  padding-bottom: 15px;
+  }
+  .my{
+  position: absolute;
+  top: 135px;
+  right: 0px;
+  }
+  .my1{
+  position: absolute;
+  top: 203px;
+  left: 120px;
+  }
+  .my3{
+  position: absolute;
+  top: 400px;
+  left: 120px;
+  }
+  .navbar{
+  position: absolute !important;
+  width: 100%;
+  }
+  .button {
+  background: #8FC1CF;
+  border: none;
+  font-weight: bolder;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 15px;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }button:hover {
+  background-color: #fff;
+  }
+  input:hover {
+  background-color: #fff;
+  }
+  .my2{
+  position: absolute;
+  top: 285px;
+  left: 120px;
+  }
+  .insta{
+  position: absolute;
+  top: 190px;
+  left: 30px;
+  }
+  .insta li{
+  list-style-type: none;
+  padding-top: 15px;
+  }
+  section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  section h2{
+  padding-bottom: 20px;
+  }
