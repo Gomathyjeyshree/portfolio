@@ -329,12 +329,12 @@ body{
   border-radius: 50%;
   margin: 0px 5px 20px;
   }
-  .desk-header{
-  display: none !important;
-  }
-  .mob-banner{
-  display: block;
-  }
+ 
+ .mob-svg{
+  position: absolute;
+  top: 543px;
+
+ }
   .about{
   padding-top: 65%;
   }
