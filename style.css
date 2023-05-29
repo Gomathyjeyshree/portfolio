@@ -332,7 +332,7 @@ body{
  
  .mob-svg{
   position: absolute;
-  top: 543px;
+  top: 543px !important;
 
  }
   .about{
